@@ -49,11 +49,7 @@ header nav.first {
 }
 
 header {
-  /* border-bottom: 15px solid transparent;
-    padding: 15px;
-    border-image-source: url(img/Hr-img.png);
-    border-image-repeat: repeat;
-    border-image-slice: 30; */
+  
   border-bottom: 10px solid transparent;
   border-image: url(img/Hr-img.png) 50 22% repeat;
 
@@ -84,7 +80,28 @@ main p {
   float: right;
 }
 
-
+main {
+  position: relative;
+}
+article p {
+  font-size: 16px;
+  padding-top: 20px;
+}
+#list {
+  width: 800px;
+  height: 305px;
+  font-size: 18px;
+  background-image: url("img/list-text-background.png");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-color: #fff;
+  padding-top: 40px;
+  padding-left: 100px;
+  color: rgb(65, 63, 63);
+  line-height: 35px;
+  position: relative;
+}
 
 .strike {
   text-decoration: line-through;
@@ -154,7 +171,7 @@ footer {
   border: 0;
   height: 1px;
   background: rgb(97, 97, 97);
-  top: 40px;
+  top: 67px;
   bottom: -25px;
   
 }
@@ -162,7 +179,7 @@ footer {
 position: relative;
     text-align: center;
 right: 60px;
-top: 22px;
+top: 50px;
 }
 .firstTextFooter {
   position: relative;
