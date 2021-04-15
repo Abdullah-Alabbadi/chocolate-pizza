@@ -84,28 +84,7 @@ main p {
   float: right;
 }
 
-main {
-  position: relative;
-}
-article p {
-  font-size: 16px;
-  padding-top: 20px;
-}
-#list {
-  width: 800px;
-  height: 305px;
-  font-size: 18px;
-  background-image: url("img/list-text-background.png");
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-size: cover;
-  background-color: #fff;
-  padding-top: 40px;
-  padding-left: 100px;
-  color: rgb(65, 63, 63);
-  line-height: 35px;
-  position: relative;
-}
+
 
 .strike {
   text-decoration: line-through;
