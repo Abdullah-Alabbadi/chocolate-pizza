@@ -91,7 +91,7 @@ article p {
   width: 800px;
   height: 305px;
   font-size: 18px;
-  background-image: url("/img/list-text-background.png");
+  background-image: url("../img/list-text-background.png");
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-size: cover;
